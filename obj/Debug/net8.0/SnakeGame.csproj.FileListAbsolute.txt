@@ -1,0 +1,14 @@
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\bin\Debug\net8.0\SnakeGame.exe
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\bin\Debug\net8.0\SnakeGame.deps.json
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\bin\Debug\net8.0\SnakeGame.runtimeconfig.json
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\bin\Debug\net8.0\SnakeGame.dll
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\bin\Debug\net8.0\SnakeGame.pdb
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\SnakeGame.AssemblyInfoInputs.cache
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\SnakeGame.AssemblyInfo.cs
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\SnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\SnakeGame.dll
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\refint\SnakeGame.dll
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\SnakeGame.pdb
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\SnakeGame.genruntimeconfig.cache
+C:\Users\JG\Documents\BACKUP_OLD_PC\JG\PROG\SnakeGame\SnakeGame\obj\Debug\net8.0\ref\SnakeGame.dll
