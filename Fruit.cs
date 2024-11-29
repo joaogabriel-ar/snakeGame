@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace SnakeGame
 {
@@ -10,46 +11,45 @@ namespace SnakeGame
         public int x;
         public int y;
         private Board board;
+        private Snake snake;
 
-        public Fruit(Board board, Snake snake) {
+        public Fruit(Board board) {
 
             this.board = board;
 
-            int []fieldLimits = board.getFieldLength();
-
-            int []positions = this.generatePosition(fieldLimits[0], fieldLimits[1]);
-
-            Boolean isInSnakePosition = false;
-
-            for (int i = 0; i < snake.position.GetLength(0); i++)
-            {
-                isInSnakePosition = positions[0] == snake.position[i,0] && positions[1] == snake.position[i,1];
-            }
-
-            while(isInSnakePosition) {
-
-                positions = this.generatePosition(positions[0], positions[1]);
-            }
-
-            this.x = positions[0];
-            this.y = positions[1];
         }
 
-        private int[] generatePosition(int delimiterX, int delimiterY) {
+        private int[] GeneratePosition(int delimiterX, int delimiterY) {
 
             Random random = new Random();
 
-            int x = random.Next(1,delimiterX - 1);
-            int y = random.Next(1,delimiterY - 1);
+            int x = random.Next(1,delimiterX);
+            int y = random.Next(1,delimiterY);
 
             return [x,y];
 
         }
 
-        public void Draw() {
+        private void SetPosition(List<int[]> snakeCoords)
+        {
+            int[] fieldLimits = board.GetFieldLength();
+            int[] positions;
 
-            this.board.Draw(this.x, this.y, "• ");
+            do
+            {
+                positions = this.GeneratePosition(fieldLimits[0], fieldLimits[1]);
+            }
+            while (snakeCoords.Any(snake => snake[0] == positions[0] && snake[1] == positions[1]));
 
+            this.x = positions[0];
+            this.y = positions[1];
+        }
+
+        public void Draw(List<int[]> snakeCoords) {
+
+            this.SetPosition(snakeCoords);
+            this.board.Draw(new List<int[]> { new int[] { this.x, this.y } }, "*");
+            
         }
 
     }
