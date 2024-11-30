@@ -10,6 +10,7 @@ namespace SnakeGame
     {
         public void Start()
         {
+            Console.Clear();
             Console.CursorVisible = false;
             Boolean gameIsOn = true;
 
